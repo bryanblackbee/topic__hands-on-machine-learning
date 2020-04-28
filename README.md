@@ -12,9 +12,10 @@
 #### 5.1: SVM Classification
 - HandsML --> Linear SVM Classification
 - ISTL --> Chap 9.1.1 - 9.1.5, 9.2.1 - 9.2.2
-#### 5.2: Non-Linear SVM Classification
-- HandsML --> Nonlinear SVM Classification - Polynomial Kernel
-- ISTL --> Chap 9.3.1
+#### 5.2: Non-Linear SVM Classification & SVM Regression
+- HandsML --> Nonlinear SVM Classification - Polynomial Kernel, Adding Similarity Features, Gaussian RBF Kernel, Computational Complexity
+- ISTL --> Chap 9.3.1 - 9.3.2
+- HandsML --> SVM Regression
 
 ### 6. Tree Based Models (Completed)
 #### 6.1: Decision Trees
