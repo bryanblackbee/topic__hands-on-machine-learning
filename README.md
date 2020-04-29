@@ -32,3 +32,11 @@
 - HandsML --> Bagging and Pasting, Random Patches and Random Subspaces, Random Forests, Boosting, Stacking
 - ISTL --> 8.2.1, 8.2.2, 8.2.3
 
+### 8. Dimensionality Reduction
+#### 8.1: Principal Component Analysis
+- HandsML --> The Curse of Dimensionality, PCA - Preserving the Variance, Principal Components, Projecting Down to d Dimensions, Using Scikit-Learn
+- ISTL --> 10.1, 10.2.1, 10.2.2 
+#### 8.2: More on PCA & Other Uses of PCA
+- HandsML --> Explained Variance Ratio, Choosing the Right Number of Dimensions, PCA for Compression, Incremental PCA, Randomized PCA, Kernel PCA
+- ISTL --> 10.2.3, 10.2.4
+
