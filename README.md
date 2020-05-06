@@ -15,18 +15,19 @@
 #### 2.3 - Machine Learning
 - HandsML --> End-to-End Machine Learning Project
 
-### 3. Classification
+### 3. Classification  (Done)
 #### 3.1 - Classification Overview & Performance Measures
 - HandsML --> MNIST, Training a Binary Classifier, Confusion Matrix, Precision and Recall, Precision/Recall Tradeoff, The ROC Curve
 - ISTL --> Chap 4.1, Chap 4.2, 4.4.3
 #### 3.2 - Validation Set & Cross Validation
 - HandsML --> Measuring Accuracy Using Cross-Validation
-- ISTL --> 5.1
+- ISTL --> 5.1, 5.2
 #### 3.3 - Multiclass Classification & Error Analysis
 - HandsML --> Multiclass Classification, Error Analysis
+- ISTL --> 9.4.1, 9.4.2
 #### 3.4 - Multilabel Classification
 - HandsML --> Multilabel Classification
-#### 3.3 - Multioutput Classification
+#### 3.5 - Multioutput Classification
 - HandsML --> Multioutput Classification
 
 ### 4. Training Models
@@ -65,7 +66,7 @@
 - HandsML --> Bagging and Pasting, Random Patches and Random Subspaces, Random Forests, Boosting, Stacking
 - ISTL --> 8.2.1, 8.2.2, 8.2.3
 
-### 8. Dimensionality Reduction
+### 8. Dimensionality Reduction (Done)
 #### 8.1: Principal Component Analysis
 - HandsML --> The Curse of Dimensionality, PCA - Preserving the Variance, Principal Components, Projecting Down to d Dimensions, Using Scikit-Learn
 - ISTL --> 10.1, 10.2.1, 10.2.2 
