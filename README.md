@@ -3,6 +3,7 @@
 ## References
 - An Introduction to Statistical Learning (James, Witten, Hastie, Tibshirani, 2013) --> ISTL
 - Hands-On Machine Learning with Scikit-Learn (Geron, 2017) --> HandsML
+- Machine Learning in Action (Harrington, 2012) --> MLIA
 ## Chapters
 ### 1. The Machine Learning Landscape
 #### 1.1 What is Machine Learning
@@ -15,8 +16,18 @@
 - HandsML --> End-to-End Machine Learning Project
 
 ### 3. Classification
-#### Multiclass Classification
-- Using SVM Classifier: ISTL --> Chap 9.4.1 - 9.4.2
+#### 3.1 - Classification Overview & Performance Measures
+- HandsML --> MNIST, Training a Binary Classifier, Confusion Matrix, Precision and Recall, Precision/Recall Tradeoff, The ROC Curve
+- ISTL --> Chap 4.1, Chap 4.2, 4.4.3
+#### 3.2 - Validation Set & Cross Validation
+- HandsML --> Measuring Accuracy Using Cross-Validation
+- ISTL --> 5.1
+#### 3.3 - Multiclass Classification & Error Analysis
+- HandsML --> Multiclass Classification, Error Analysis
+#### 3.4 - Multilabel Classification
+- HandsML --> Multilabel Classification
+#### 3.3 - Multioutput Classification
+- HandsML --> Multioutput Classification
 
 ### 4. Training Models
 #### 4.1 - Linear Regression & Gradient Descent
@@ -27,6 +38,9 @@
 - HandsML --> Regularized Linear Models
 #### 4.4 - Logistic Regression
 - HandsML --> Logistic Regression
+- ISTL --> Chap 4.3
+#### 4.5 - k Nearest Algorithm, Naïve Bayes Algorithm
+- MLIA --> Chap 2, 4
 
 ### 5. Support Vector Machines (Done)
 #### 5.1: SVM Classification
