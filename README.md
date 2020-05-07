@@ -50,6 +50,8 @@
 #### 5.2: Non-Linear SVM Classification & SVM Regression
 - HandsML --> Nonlinear SVM Classification - Polynomial Kernel, Adding Similarity Features, Gaussian RBF Kernel, Computational Complexity, SVM Regression
 - ISTL --> Chap 9.3.1 - 9.3.2
+#### Additional Readings
+- MLIA --> Chap 6 (Pending)
 
 ### 6. Tree Based Models (Done)
 #### 6.1: Decision Trees
@@ -58,6 +60,8 @@
 #### 6.2: Regression Trees
 - HandsML --> Regularization Hyperparameters, Regression
 - ISTL --> Chap 8.1.1
+#### Additional Readings
+- MLIA --> Chap 3, 9 (Pending)
 
 ### 7. Ensemble Learning (Done)
 #### 7.1: Voting Classifiers
@@ -79,3 +83,5 @@
 - ISTL --> 10.3.1, 10.3.3
 #### 9.2: Hierarchical Clustering
 - ISTL --> 10.3.2
+#### Additional Readings
+- MLIA --> Chap 10 (Pending)
