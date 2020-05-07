@@ -67,8 +67,12 @@
 #### 7.1: Voting Classifiers
 - HandsML --> Voting Classifiers
 #### 7.2: Tree-based Ensembles 
-- HandsML --> Bagging and Pasting, Random Patches and Random Subspaces, Random Forests, Boosting, Stacking
-- ISTL --> 8.2.1, 8.2.2, 8.2.3
+- HandsML --> Bagging and Pasting, Random Patches and Random Subspaces, Random Forests, Boosting
+- ISTL --> 8.2.1, 8.2.2
+#### 7.3: Boosting
+Also has XGB implementation for gradient boosted trees
+- HandsML --> Boosting
+- ISTL --> 8.2.3
 
 ### 8. Dimensionality Reduction (Done)
 #### 8.1: Principal Component Analysis
