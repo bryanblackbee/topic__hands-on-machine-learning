@@ -40,8 +40,9 @@
 #### 4.4 - Logistic Regression
 - HandsML --> Logistic Regression
 - ISTL --> Chap 4.3
-#### 4.5 - k Nearest Algorithm, Naïve Bayes Algorithm
-- MLIA --> Chap 2, 4
+#### 4.5 - k Nearest Neighbours (kNN) Algorithm, Naïve Bayes Algorithm
+- MLIA --> Chap 2.1 for kNN
+- MLIA --> Chap 4.1 - 4.5 for Naïve Bayes
 
 ### 5. Support Vector Machines (Done)
 #### 5.1: SVM Classification
@@ -61,7 +62,8 @@
 - HandsML --> Regularization Hyperparameters, Regression
 - ISTL --> Chap 8.1.1
 #### Additional Readings
-- MLIA --> Chap 3, 9 (Pending)
+- MLIA --> Chap 3.1, 3.3
+- MLIA --> Chap 9.1 - 9.4, with Model Trees (9.5)
 
 ### 7. Ensemble Learning (Done)
 #### 7.1: Voting Classifiers
@@ -88,4 +90,4 @@ Also has XGB implementation for gradient boosted trees
 #### 9.2: Hierarchical Clustering
 - ISTL --> 10.3.2
 #### Additional Readings
-- MLIA --> Chap 10 (Pending)
+- MLIA --> Chap 10 (with bisecting k-means)
