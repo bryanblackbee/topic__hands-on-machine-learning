@@ -63,7 +63,7 @@
 - ISTL --> Chap 8.1.1
 #### Additional Readings
 - MLIA --> Chap 3.1, 3.3
-- MLIA --> Chap 9.1 - 9.4, with Model Trees (9.5)
+- MLIA --> Chap 9.1 - 9.4
 
 ### 7. Ensemble Learning (Done)
 #### 7.1: Voting Classifiers
@@ -83,6 +83,8 @@ Also has XGB implementation for gradient boosted trees
 #### 8.2: More on Principal Component Analysis
 - HandsML --> Explained Variance Ratio, Choosing the Right Number of Dimensions, PCA for Compression, Incremental PCA, Randomized PCA
 - ISTL --> 10.2.3
+#### Additional Readings
+- MLIA --> 13.1, 13.2
 
 ### 9. Clustering Methods (Done)
 #### 9.1: k-means Clustering
@@ -90,4 +92,4 @@ Also has XGB implementation for gradient boosted trees
 #### 9.2: Hierarchical Clustering
 - ISTL --> 10.3.2
 #### Additional Readings
-- MLIA --> Chap 10 (with bisecting k-means)
+- MLIA --> Chap 10.1, 10.2
