@@ -31,12 +31,18 @@
 - HandsML --> Multioutput Classification
 
 ### 4. Training Models
-#### 4.1 - Linear Regression & Gradient Descent
+#### 4.1a - Linear Regression & Gradient Descent
 - HandsML --> Linear Regression, Gradient Descent
+- ISTL --> 3.1.1, 3.2.1
+#### 4.1b - Validity of the Model
+- ISTL --> 3.1.2, 3.1.3, 3.2.2
+#### 4.1c - Other Considerations in the Regression Model
+- ISTL --> 3.3.1, 3.3.2, 3.3.3
 #### 4.2 - Polynomial Regression
 - HandsML --> Polynomial Regression, Learning Curves
 #### 4.3 - Regularised Linear Models
 - HandsML --> Regularized Linear Models
+- ISTL --> Chap 6.2.1, 6.2.2, 6.2.3
 #### 4.4 - Logistic Regression
 - HandsML --> Logistic Regression
 - ISTL --> Chap 4.3
