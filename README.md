@@ -37,7 +37,7 @@
 #### 4.1b - Validity of the Model
 - ISTL --> 3.1.2, 3.1.3, 3.2.2
 #### 4.1c - Other Considerations in the Regression Model
-- ISTL --> 3.3.1, 3.3.2, 3.3.3
+- ISTL --> 3.3.3
 #### 4.2 - Polynomial Regression
 - HandsML --> Polynomial Regression, Learning Curves
 #### 4.3 - Regularised Linear Models
@@ -45,7 +45,7 @@
 - ISTL --> Chap 6.2.1, 6.2.2, 6.2.3
 #### 4.4 - Logistic Regression
 - HandsML --> Logistic Regression
-- ISTL --> Chap 4.3
+- ISTL --> Chap 4.3.1 - 4.3.5
 #### 4.5 - k Nearest Neighbours (kNN) Algorithm, Naïve Bayes Algorithm
 - MLIA --> Chap 2.1 for kNN
 - MLIA --> Chap 4.1 - 4.5 for Naïve Bayes
