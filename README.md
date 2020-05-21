@@ -2,29 +2,33 @@
 
 A stack of study notes for fundamental machine learning concepts, techniques, models and metrics. Topics covered include (not in order of chapters):
 
-I. Fundamentals - supervised learning, unsupervised learning, classification, regression, clustering, 
+I. **Fundamentals** - supervised learning, unsupervised learning, classification, regression, clustering, 
 
-II. Linear Regression - linear regression, regularisation (ridge & lasso), logistic regression, k-nearest neighbours, naïve
+II. **Linear Regression** - linear regression, regularisation (ridge & lasso), logistic regression, k-nearest neighbours, naïve
 
-III. Support Vector Machines - 
+III. **Support Vector Machines** - 
 
-IV. Tree-based techniques - Bayes, support vector machines, decision trees, regression trees, bagging, pasting, random forests, 
+IV. **Tree-based techniques** - Bayes, support vector machines, decision trees, regression trees, bagging, pasting, random forests, 
 boosting
-V. Other models - 
+V. **Other models** - 
 
-VI. Ensembles - 
+VI. **Ensembles** - 
 
-VII. Performance Evaluation - 
+VII. **Performance Evaluation** - 
 
-VIII. Unsupervised Learning - PCA, Clustering (k-means clustering, hierarchical clustering)
+VIII. **Unsupervised Learning** - PCA, Clustering (k-means clustering, hierarchical clustering)
 
 ## References
-The following books are used for topical references. The book short-form e.g. `ISTL` will be used as the book title reference in chapter descriptions.
+The following textbooks are used for topical references. The book short-form e.g. `ISTL` will be used as the book title reference in chapter descriptions. If you think the notebooks are insufficient for learning / implementation, please refer to the textbook topics directly.
+
 - An Introduction to Statistical Learning (James, Witten, Hastie, Tibshirani, 2013) --> `ISTL`
 - Hands-On Machine Learning with Scikit-Learn (Geron, 2017) --> `HandsML`
 - Machine Learning in Action (Harrington, 2012) --> `MLIA`
 
+P.S. `HandsML` has only chapter heading names, not numbers.
+
 ## Chapters
+
 ### 1. The Machine Learning Landscape
 #### 1.1 What is Machine Learning
 - `HandsML` --> The Machine Learning Landscape
