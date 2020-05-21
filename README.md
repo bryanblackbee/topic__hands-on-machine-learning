@@ -3,12 +3,19 @@
 A stack of study notes for fundamental machine learning concepts, techniques, models and metrics. Topics covered include (not in order of chapters):
 
 I. Fundamentals - supervised learning, unsupervised learning, classification, regression, clustering, 
+
 II. Linear Regression - linear regression, regularisation (ridge & lasso), logistic regression, k-nearest neighbours, naïve
+
 III. Support Vector Machines - 
-IV. Tree-based techniques - Bayes, support vector machines, decision trees, regression trees, bagging, pasting, random forests, boosting
+
+IV. Tree-based techniques - Bayes, support vector machines, decision trees, regression trees, bagging, pasting, random forests, 
+boosting
 V. Other models - 
+
 VI. Ensembles - 
+
 VII. Performance Evaluation - 
+
 VIII. Unsupervised Learning - PCA, Clustering (k-means clustering, hierarchical clustering)
 
 ## References
