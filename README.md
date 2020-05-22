@@ -1,23 +1,5 @@
 # Machine Learning Introduction Study Notes
-
-A stack of study notes for fundamental machine learning concepts, techniques, models and metrics. Topics covered include (not in order of chapters):
-
-I. **Fundamentals** - supervised learning, unsupervised learning, classification, regression, clustering, 
-
-II. **Linear Regression** - linear regression, regularisation (ridge & lasso), logistic regression, k-nearest neighbours, naïve
-
-III. **Support Vector Machines** - 
-
-IV. **Tree-based techniques** - Bayes, support vector machines, decision trees, regression trees, bagging, pasting, random forests, 
-boosting
-V. **Other models** - 
-
-VI. **Ensembles** - 
-
-VII. **Performance Evaluation** - 
-
-VIII. **Unsupervised Learning** - PCA, Clustering (k-means clustering, hierarchical clustering)
-
+A stack of study notes for fundamental machine learning concepts, techniques, models and metrics.
 ## References
 The following textbooks are used for topical references. The book short-form e.g. `ISTL` will be used as the book title reference in chapter descriptions. If you think the notebooks are insufficient for learning / implementation, please refer to the textbook topics directly.
 
@@ -77,34 +59,68 @@ P.S. `HandsML` has only chapter heading names, not numbers.
 - `MLIA` --> Chap 4.1 - 4.5 for Naïve Bayes
 
 ### 5. Support Vector Machines
+5.1 covers briefly the **Hyperplane**, then introduces **Maximum Margin Classifier** or hard margin classification. It then extends the discussion to the **Support Vector Classifier** or soft margin classification that allows for violations.
+5.2 covers the **Support Vector Machine**, using polynomial kernels and radial kernels to allow for nonlinear boundaries. It then briefly covers **Support Vector Regression**.
 #### 5.1: SVM Classification
-- `HandsML` --> Linear SVM Classification
-- `ISTL` --> Chap 9.1.1 - 9.1.5, 9.2.1 - 9.2.2
+- `HandsML`
+    - Linear SVM Classification
+- `ISTL`
+    - Chap 9.1.1 - 9.1.5 
+    - Chap 9.2.1 - 9.2.2
 #### 5.2: Non-Linear SVM Classification & SVM Regression
-- `HandsML` --> Nonlinear SVM Classification - Polynomial Kernel, Adding Similarity Features, Gaussian RBF Kernel, Computational Complexity, SVM Regression
-- `ISTL` --> Chap 9.3.1 - 9.3.2
-- also `MLIA` --> Chap 6 (Pending)
+- `HandsML`
+    -  Nonlinear SVM Classification - Polynomial Kernel
+    -  Adding Similarity Features
+    -  Gaussian RBF Kernel
+    -  Computational Complexity
+    -  SVM Regression
+- `ISTL`
+    -  Chap 9.3.1 - 9.3.2
 
+Additional Readings
+- `MLIA`
+    -  Chap 6.1, 6.2, 6.5, 6.7
 ### 6. Tree Based Models
+6.1 covers how to read a **classification tree**, then explains how to train a decision tree by first splitting a sample into nodes and then calculating node purity using either the **Gini index** or **Cross-Entropy**. 
+6.2 covers **regression trees**, an extension of classification trees in 6.1. It then discusses how to regularise the model using different pruning methods.
 #### 6.1: Decision Trees
-- `HandsML` --> Training and Visualizing a Decision Tree, Making Predictions, Estimating Class Probabilities, The CART Training Algorithm, Gini Impurity or Entropy?, Instability
-- `ISTL` --> Chap 8.1.2, 8.1.3, 8.1.4
+- `HandsML`
+    - Training and Visualizing a Decision Tree
+    - Making Predictions
+    - Estimating Class Probabilities
+    - The CART Training Algorithm
+    - Gini Impurity or Entropy?
+    - Instability
+- `ISTL`
+    - Chap 8.1.2, 8.1.3, 8.1.4
 #### 6.2: Regression Trees
 - `HandsML` --> Regularization Hyperparameters, Regression
 - `ISTL` --> Chap 8.1.1
-- also `MLIA` --> Chap 3.1, 3.3
-- also `MLIA` --> Chap 9.1 - 9.4
 
+Additional Readings
+- `MLIA`
+    - Chap 3.1, 3.3
+    - Chap 9.1 - 9.4
 ### 7. Ensemble Learning
+7.1 introduces ensemble learning with **voting classifiers** and how they can be used to improve a single model. There are two flavours of voting - hard voting or soft voting.
+7.2 discusses tree-based ensembles including bootstrap aggregating or **bagging**, **pasting**, **random forests** and **extra-trees**.
+7.3 discusses **boosting**.
 #### 7.1: Voting Classifiers
-- `HandsML` --> Voting Classifiers
+- `HandsML`
+    - Voting Classifiers
 #### 7.2: Tree-based Ensembles 
-- `HandsML` --> Bagging and Pasting, Random Patches and Random Subspaces, Random Forests, Boosting
-- `ISTL` --> 8.2.1, 8.2.2
+- `HandsML`
+    - Bagging and Pasting
+    - Random Patches and Random Subspaces
+    - Random Forests
+- `ISTL` 
+    - Chap 8.2.1, 8.2.2
 #### 7.3: Boosting
 Also has XGB implementation for gradient boosted trees
-- `HandsML` --> Boosting
-- `ISTL` --> 8.2.3
+- `HandsML`
+    - Boosting
+- `ISTL`
+    - Chap 8.2.3
 
 ### 8. Dimensionality Reduction
 #### 8.1: Principal Component Analysis
