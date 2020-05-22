@@ -22,44 +22,93 @@ P.S. `HandsML` has only chapter heading names, not numbers.
 - `HandsML` --> End-to-End Machine Learning Project
 
 ### 3. Classification
+3.1 introduces the goals classification problem and contrasts it with the regression problem. It then demonstrates using a **binary classifier** to classify numbers in the MNIST dataset. With the results, it introduces performance metrics for classification problems including **accuracy**, **confusion matrix**, **recall**, **specificity**, **precision**, **f1-score**, **ROC curve** and **ROC-AUC** values.
+
+3.2 discusses resampling methods to handle lack of volume of data and to measure the stability of a model. It introduces the **train-test split**, then extends this method to **cross-validation** and **bootstrapping**.
+
+3.3 extends the binary classifier to the **multiclass classifier** problem. In particular using the **one-vs-all** strategy or the **one-vs-one** strategy. 
+
+3.4 and 3.5 implements **multi-label classification** and **multi-output classification** respectively. Multi-label classification is when a classifier can simultaneously predict two (or more) results from two groups of categories. Multi-output classification is where each result can be one of more than 2 possibilities.
+
 #### 3.1 - Classification Overview & Performance Measures
-- `HandsML` --> MNIST, Training a Binary Classifier, Confusion Matrix, Precision and Recall, Precision/Recall Tradeoff, The ROC Curve
-- `ISTL` --> Chap 4.1, Chap 4.2, 4.4.3
+- `HandsML` 
+    - MNIST
+    - Training a Binary Classifier
+    - Confusion Matrix
+    - Precision and Recall
+    - Precision/Recall Tradeoff,
+    - The ROC Curve
+- `ISTL`
+    - Chap 4.1, 4.2, 4.4.3
+- `MLIA`
+    - Chap 7.7
 #### 3.2 - Validation Set & Cross Validation
-- `HandsML` --> Measuring Accuracy Using Cross-Validation
-- `ISTL` --> 5.1, 5.2
+- `HandsML`
+    - Measuring Accuracy Using Cross-Validation
+- `ISTL`
+    - Chap 5.1, 5.2
 #### 3.3 - Multiclass Classification & Error Analysis
-- `HandsML` --> Multiclass Classification, Error Analysis
-- `ISTL` --> 9.4.1, 9.4.2
+- `HandsML`
+    - Multiclass Classification, Error Analysis
+- `ISTL`
+    - Chap 9.4.1, 9.4.2
 #### 3.4 - Multilabel Classification
-- `HandsML` --> Multilabel Classification
+- `HandsML`
+    - Multilabel Classification
 #### 3.5 - Multioutput Classification
-- `HandsML` --> Multioutput Classification
+- `HandsML`
+    - Multioutput Classification
 
 ### 4. Training Models
+4.1 introduces **Linear Regression** and optimisation using the **normal equations** and **gradient descent**. It then discusses the validity of the estimates using concepts like **bias**, **variance**, **standard errors**, **confidence intervals** and **hypothesis testing**.
+
+4.2 covers extends linear regression to **polynomial regression** and model selection using **learning curves**.
+
+4.3 discusses regularisation of the model using **ridge regression** and **lasso regression**. It also introduces a combined constraint technique called **elastic nets**.
+
+4.4 extends linear regression to **logistic regression**. It also considers the multiclass problem and introduces **softmax regression**.
+
+4.5 introduces different learning models for classification, including **k-nearest neighbours** and **naïve Bayes classification**.
+
 #### 4.1a - Linear Regression & Gradient Descent
-- `HandsML` --> Linear Regression, Gradient Descent
-- `ISTL` --> 3.1.1, 3.2.1
+- `HandsML`
+    - Linear Regression
+    - Gradient Descent
+- `ISTL`
+    - Chap 3.1.1, 3.2.1
 #### 4.1b - Validity of the Model
-- `ISTL` --> 3.1.2, 3.1.3, 3.2.2
+- `ISTL`
+    - Chap 3.1.2, 3.1.3, 3.2.2
 #### 4.1c - Other Considerations in the Regression Model
-- `ISTL` --> 3.3.3
+- `ISTL`
+    - Chap 3.3.3
 #### 4.2 - Polynomial Regression
-- `HandsML` --> Polynomial Regression, Learning Curves
+- `HandsML`
+    - Polynomial Regression
+    - Learning Curves
+- `ISTL`
+    - Chap 7.1
 #### 4.3 - Regularised Linear Models
-- `HandsML` --> Regularized Linear Models
-- `ISTL` --> Chap 6.2.1, 6.2.2, 6.2.3
-#### 4.4 - Regularised Linear Models II
-- `ISTL` --> Chap 6.2.2
+- `HandsML`
+    - Regularized Linear Models
+- `ISTL`
+    - Chap 6.2.1, 6.2.2, 6.2.3
+#### 4.3 - Regularised Linear Models II
+- `ISTL`
+    - Chap 6.2.2
 #### 4.4 - Logistic Regression
-- `HandsML` --> Logistic Regression
-- `ISTL` --> Chap 4.3.1 - 4.3.5
+- `HandsML`
+    - Logistic Regression
+- `ISTL`
+    - Chap 4.3.1 - 4.3.5
 #### 4.5 - k Nearest Neighbours (kNN) Algorithm, Naïve Bayes Algorithm
-- `MLIA` --> Chap 2.1 for kNN
-- `MLIA` --> Chap 4.1 - 4.5 for Naïve Bayes
+- kNN: `MLIA`
+    - Chap 2.1
+- Naïve Bayes: `MLIA`
+    - Chap 4.1 - 4.5
 
 ### 5. Support Vector Machines
-5.1 covers briefly the **Hyperplane**, then introduces **Maximum Margin Classifier** or hard margin classification. It then extends the discussion to the **Support Vector Classifier** or soft margin classification that allows for violations.
+5.1 covers briefly the **Hyperplane**, then introduces the **Maximum Margin Classifier** or hard margin classification. It then extends the discussion to the **Support Vector Classifier** or soft margin classification that allows for violations.
 
 5.2 covers the **Support Vector Machine**, using polynomial kernels and radial kernels to allow for nonlinear boundaries. It then briefly covers **Support Vector Regression**.
 #### 5.1: SVM Classification
@@ -151,12 +200,15 @@ Also has XGB implementation for gradient boosted trees
     - Randomized PCA
 - `ISTL`
     - Chap 10.2.3
+#### 8.3: Manifold Learning
+- `HandsML`
+    - Manifold Learning
 
 Additional Readings
 - `MLIA`
     - 13.1, 13.2
 ### 9. Clustering Methods
-9.1 discusses clustering techniques, and introduces the **$k$-means clustering** algorithm.
+9.1 discusses clustering techniques, and introduces the **k-means clustering** algorithm.
 
 9.2 discusses another algorithm, the **hierarchical clustering** algorithm.
 #### 9.1: k-means Clustering
