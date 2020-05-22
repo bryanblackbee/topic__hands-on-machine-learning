@@ -60,6 +60,7 @@ P.S. `HandsML` has only chapter heading names, not numbers.
 
 ### 5. Support Vector Machines
 5.1 covers briefly the **Hyperplane**, then introduces **Maximum Margin Classifier** or hard margin classification. It then extends the discussion to the **Support Vector Classifier** or soft margin classification that allows for violations.
+
 5.2 covers the **Support Vector Machine**, using polynomial kernels and radial kernels to allow for nonlinear boundaries. It then briefly covers **Support Vector Regression**.
 #### 5.1: SVM Classification
 - `HandsML`
@@ -82,6 +83,7 @@ Additional Readings
     -  Chap 6.1, 6.2, 6.5, 6.7
 ### 6. Tree Based Models
 6.1 covers how to read a **classification tree**, then explains how to train a decision tree by first splitting a sample into nodes and then calculating node purity using either the **Gini index** or **Cross-Entropy**. 
+
 6.2 covers **regression trees**, an extension of classification trees in 6.1. It then discusses how to regularise the model using different pruning methods.
 #### 6.1: Decision Trees
 - `HandsML`
@@ -103,7 +105,9 @@ Additional Readings
     - Chap 9.1 - 9.4
 ### 7. Ensemble Learning
 7.1 introduces ensemble learning with **voting classifiers** and how they can be used to improve a single model. There are two flavours of voting - hard voting or soft voting.
+
 7.2 discusses tree-based ensembles including bootstrap aggregating or **bagging**, **pasting**, **random forests** and **extra-trees**.
+
 7.3 discusses **boosting**.
 #### 7.1: Voting Classifiers
 - `HandsML`
@@ -123,17 +127,43 @@ Also has XGB implementation for gradient boosted trees
     - Chap 8.2.3
 
 ### 8. Dimensionality Reduction
-#### 8.1: Principal Component Analysis
-- `HandsML` --> The Curse of Dimensionality, PCA - Preserving the Variance, Principal Components, Projecting Down to d Dimensions, Using Scikit-Learn
-- `ISTL` --> 6.3.1, 10.1, 10.2.1, 10.2.2 
-#### 8.2: More on Principal Component Analysis
-- `HandsML` --> Explained Variance Ratio, Choosing the Right Number of Dimensions, PCA for Compression, Incremental PCA, Randomized PCA
-- `ISTL` --> 10.2.3
-- also `MLIA` --> 13.1, 13.2
+8.1 discusses the **curse of dimensionality** and why is it relevent in ML problems. It then explains the **PCA** algorithm and how to interpret the algorithm's results.
 
+8.2 talks about the **Explained Variance Ratio** and how it can be used to tune the PCA algorithm.
+
+8.3 discusses **manifold learning**.
+#### 8.1: Principal Component Analysis
+- `HandsML`
+    - The Curse of Dimensionality
+    - PCA - Preserving the Variance
+    - Principal Components
+    - Projecting Down to d Dimensions, 
+    - Using Scikit-Learn
+- `ISTL`
+    - Chap 6.3.1
+    - Chap 10.1, 10.2.1, 10.2.2 
+#### 8.2: More on Principal Component Analysis
+- `HandsML`
+    - Explained Variance Ratio
+    - Choosing the Right Number of Dimensions
+    - PCA for Compression
+    - Incremental PCA
+    - Randomized PCA
+- `ISTL`
+    - Chap 10.2.3
+
+Additional Readings
+- `MLIA`
+    - 13.1, 13.2
 ### 9. Clustering Methods
+9.1 discusses clustering techniques, and introduces the **$k$-means clustering** algorithm.
+
+9.2 discusses another algorithm, the **hierarchical clustering** algorithm.
 #### 9.1: k-means Clustering
-- `ISTL` --> 10.3.1, 10.3.3
+- `ISTL`
+    - Chap 10.3.1, 10.3.3
 #### 9.2: Hierarchical Clustering
-- `ISTL` --> 10.3.2
-- also `MLIA` --> Chap 10.1, 10.2
+- `ISTL`
+    - Chap 10.3.2
+- `MLIA`
+    - Chap 10.1, 10.2
