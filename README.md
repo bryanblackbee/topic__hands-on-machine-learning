@@ -12,15 +12,20 @@ P.S. `HandsML` has only chapter heading names, not numbers.
 ## Chapters
 
 ### 1. The Machine Learning Landscape
-#### 1.1 What is Machine Learning
-- `HandsML` --> The Machine Learning Landscape
+1.1 gives an overall workflow of modelling using different models using the GDP and happiness dataset.
 
+- `HandsML`
+    - The Machine Learning Landscape
+
+#### 1.1 What is Machine Learning
 ### 2. End-to-End Machine Learning Project
+2.1, 2.2 and 2.3 cover different stages of the ML project, including EDA, feature engineering and machine learning.
+
+- `HandsML`
+    - End-to-End Machine Learning Project
 #### 2.1 - Exploratory Data Analysis (EDA)
 #### 2.2 - Feature Engineering
 #### 2.3 - Machine Learning
-- `HandsML` --> End-to-End Machine Learning Project
-
 ### 3. Classification
 3.1 introduces the goals classification problem and contrasts it with the regression problem. It then demonstrates using a **binary classifier** to classify numbers in the MNIST dataset. With the results, it introduces performance metrics for classification problems including **accuracy**, **confusion matrix**, **recall**, **specificity**, **precision**, **f1-score**, **ROC curve** and **ROC-AUC** values.
 
