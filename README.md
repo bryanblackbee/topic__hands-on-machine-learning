@@ -224,3 +224,11 @@ Additional Readings
     - Chap 10.3.2
 - `MLIA`
     - Chap 10.1, 10.2
+    
+### 10. Association Analysis with the Apriori Algorithm
+- `MLIA`
+    - Chap 11
+    
+### 11. FP-Growth
+- `MLIA`
+    - Chap 12
